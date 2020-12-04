@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PageActivity"
+    >
+
+  
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/search_view_main"
+            />
+
+        <TextView
+            android:id="@+id/textcari"
+            android:layout_marginLeft="170dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/michroma"
+            android:text="Cari"
+            android:textAlignment="textStart"
+            android:textColor="#00B8D4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textdesain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/michroma"
+            android:text="Desain"
+            android:textAlignment="textStart"
+            android:textColor="#AA00FF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:id="@+id/scrollView"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/imagearchitec"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginStart="-4dp"
+                android:layout_marginEnd="-4dp"
+                android:layout_marginTop="55dp"
+                app:srcCompat="@drawable/entre_architect" />
+
+    <TextView
+        android:id="@+id/textarchitectur"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="220dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Architectural Design"
+        android:textColor="@color/darkblue"
+        android:textSize="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginEnd="-4dp"
+        app:srcCompat="@drawable/entre_interior" />
+
+    <TextView
+        android:id="@+id/textinterior"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="220dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Interior Design"
+        android:textColor="@color/darkblue"
+        android:textSize="16dp" />
+
+            <ImageButton
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginStart="-4dp"
+                android:layout_marginEnd="-4dp"
+                app:srcCompat="@drawable/entre_furniture" />
+
+            <TextView
+                android:id="@+id/textfurniture"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="220dp"
+                android:fontFamily="@font/architects_daughter"
+                android:text="Furniture Design"
+                android:textColor="@color/darkblue"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+rootProject.name='CariDesain'
+include ':app'

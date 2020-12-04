@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "100292378373",
+    "firebase_url": "https://caridesain-8ed42.firebaseio.com",
+    "project_id": "caridesain-8ed42",
+    "storage_bucket": "caridesain-8ed42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100292378373:android:1467f2f4983a89f71e416c",
+        "android_client_info": {
+          "package_name": "com.example.caridesain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100292378373-tggtlbvim0kfqps6vklfgrbvmgji5r5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.caridesain",
+            "certificate_hash": "c5e6ae0d3d29cc161fcf9eaae91edcfa3b393943"
+          }
+        },
+        {
+          "client_id": "100292378373-tgrronitlfjc4dhfensmoht0k9c50vsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1l3lYdXZYap9vbX9M2TOIwvZNVHU8Fko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100292378373-tgrronitlfjc4dhfensmoht0k9c50vsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
